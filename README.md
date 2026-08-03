@@ -32,7 +32,7 @@ What stays consistent run to run: LightGBM beats the Logistic Regression baselin
 
 ```
 .
-├── hr_attrition_prediction.ipynb   main notebook, run this top to bottom
+├── no_caps_bro.ipynb   main notebook, run this top to bottom
 ├── dataset/
 │   └── data.csv                   HR dataset, not tracked in this repo
 ├── artifacts/                     figures generated on each run
