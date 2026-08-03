@@ -67,7 +67,7 @@ jupyter
 
 1. Clone the repo.
 2. Put `data.csv` in `dataset/`.
-3. Open the notebook: `jupyter notebook hr_attrition_prediction.ipynb`
+3. Open the notebook: `jupyter notebook no_caps_bro.ipynb`
 4. Restart the kernel and run all cells, in order. There's no hidden state and no Colab-specific paths, so this works the same on any machine.
 5. It takes a few minutes. The Optuna search is capped on purpose (`OPTUNA_N_TRIALS = 30`, `OPTUNA_TIMEOUT_SECONDS = 180` in Section 1) so the notebook finishes quickly instead of chasing marginal gains.
 6. Everything is seeded (`RANDOM_STATE = 42`, including Optuna's sampler), so re-running against the same `data.csv` gives the same result every time.
